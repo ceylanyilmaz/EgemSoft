@@ -1,0 +1,10 @@
+thead {
+  background: $grey;
+  th {
+    &.cell {
+      font-size: 16px;
+      color: $white;
+      border-bottom: 0 !important;
+    }
+  }
+}

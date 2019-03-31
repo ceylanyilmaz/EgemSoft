@@ -1,0 +1,52 @@
+.commitment {
+  display: block;
+  position: relative;
+  margin: 5px 0;
+
+  .hoursmeter {
+    width: 100%;
+    height: 5px;
+    background: $softGrey;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+
+    .progress {
+      position: absolute;
+      display: inline-block;
+      width: 50%;
+      left: 0;
+      height: 5px;
+      background: linear-gradient(to right, $protrait, $grey);
+      z-index: 1;
+    }
+  }
+
+  .description {
+    float: left;
+    margin: 0 0 5px;
+  }
+
+  .percent {
+    float: right;
+    margin: 0 0 5px;
+    font-weight: bold;
+  }
+
+  &.pto {
+    .hoursmeter {
+      .progress {
+        background: linear-gradient(to right, $purple, $red);
+      }
+    }
+  }
+
+  &.assigned {
+    .hoursmeter {
+      .progress {
+        background: linear-gradient(to right, $blue, $darkBlue);
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "egemsoft",
+  "description": "",
+  "main": "bower.json",
+  "authors": [
+    "Ceylan Yılmaz"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "datatables.net-dt": "^3.2.2",
+    "datatables.net-fixedcolumns-dt": "^3.2.6",
+    "datatables.net-responsive-dt": "^2.2.3",
+    "tooltipster": "^4.2.6"
+  }
+}

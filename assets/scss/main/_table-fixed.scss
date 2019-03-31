@@ -1,0 +1,25 @@
+.fixed-col {
+  font-size: 13px;
+  width: 300px !important;
+
+  p {
+    margin: 0;
+    margin-bottom: 0.5em;
+
+    &.name {
+      display: inline-block;
+      &::after {
+        display: block;
+        content: "";
+        clear: both;
+      }
+    }
+  }
+  img {
+    margin-right: 10px;
+  }
+
+  .template {
+    display: none;
+  }
+}

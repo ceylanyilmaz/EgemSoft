@@ -1,0 +1,29 @@
+.dataTables_wrapper {
+  .dataTables_filter {
+    position: relative;
+    input {
+      margin: 10px 0;
+      padding: 10px 20px 10px 30px;
+      border: 1px solid $softGrey;
+      border-radius: 20px;
+      outline: 0;
+    }
+    &:before {
+      display: block;
+      background: url(../images/search.svg);
+      background-size: cover;
+      position: absolute;
+      content: "";
+      width: 18px;
+      height: 18px;
+      z-index: 2;
+      left: 10px;
+      top: 19px;
+    }
+  }
+}
+
+.table {
+  border-left: 1px solid $grey;
+  border-right: 1px solid $grey;
+}
